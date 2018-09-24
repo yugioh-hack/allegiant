@@ -456,7 +456,7 @@ if ( ! function_exists( 'y_cpotheme_postpage_image' ) ) {
   function y_cpotheme_postpage_image() {
     if ( has_post_thumbnail() ) {
       if ( ! is_singular( 'post' ) ) {
-        echo '<div class="post-image">';
+        echo '<div class="post-image-flex">';
         echo '<a href="' . get_permalink( get_the_ID() ) . '" title="' . sprintf( esc_attr__( 'Go to %s', 'allegiant' ), the_title_attribute( 'echo=0' ) ) . '" rel="bookmark">';
         the_post_thumbnail( 'index_thumbnail' );
         echo '</a>';
