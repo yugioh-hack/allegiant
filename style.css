@@ -1065,17 +1065,6 @@ POSTS & PAGES
     font-family: 'fontawesome';
 }
 
-.post-body {
-  display: -webkit-box;
-  display: -webkit-flex; /* 旧仕様が追加された */
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: row;
-}
-.post-image-flex {
-  flex-basis; 120px
-}
-
 /* AUTHOR BIOS */
 .author-info {
     clear: both;
